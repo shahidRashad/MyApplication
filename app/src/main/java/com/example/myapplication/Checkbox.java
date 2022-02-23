@@ -20,27 +20,48 @@ public class Checkbox extends AppCompatActivity {
         write = (CheckBox) findViewById(R.id.checkBox6);
         play = (CheckBox) findViewById(R.id.checkBox7);
         cook = (CheckBox) findViewById(R.id.checkBox8);
-        submit = (Button) findViewById(R.id.submit);
+        submit = (Button) findViewById(R.id.button);
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String res = "Selected Hobbies are";
-                if (read.isChecked()){
+                if (read.isChecked()) {
                     res += "\nReading";
                 }
-                if (write.isChecked()){
+                if (write.isChecked()) {
                     res += "\nWriting";
                 }
-                if (play.isChecked()){
+                if (play.isChecked()) {
                     res += "\nPlaying";
                 }
-                if (cook.isChecked()){
+                if (cook.isChecked()) {
                     res += "\nCooking";
                 }
-                Toast.makeText(getApplicationContext(),res,Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), res, Toast.LENGTH_SHORT).show();
             }
+
         });
+
 
     }
 
+    public void click(View view) {
+        boolean check = ((CheckBox) view).isChecked();
+        String str = " ";
+        switch (view.getId()){
+            case R.id.checkBox5:
+                str = check?"Reading is Selected":"Reading is Deselected";
+                break;
+            case R.id.checkBox6:
+                str = check?"Writing is Selected":"Writing is Deselected";
+                break;
+            case R.id.checkBox7:
+                str = check?"Playing is Selected":"Playing is Deselected";
+                break;
+            case R.id.checkBox8:
+                str = check?"Cooking is Selected":"Cooking is Deselected";
+                break;
+        }
+        Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
+    }
 }
