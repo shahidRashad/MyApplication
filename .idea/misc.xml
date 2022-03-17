@@ -3,13 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/drawable-v24/ovel.xml" value="0.2703125" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_alert.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_auto_complete.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_checkbox.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_custom_alert.xml" value="0.264" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_custom_list.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_custom_toast.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_home_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_horizontal_scroll.xml" value="0.264" />
         <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_media.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_progressbar.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_radio_check.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_rating.xml" value="0.264" />
         <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_registration.xml" value="0.264" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_scrollview.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_search_view_ex.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_seekbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_snackbar.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_temp.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_toggle_switch.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_video.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_web_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/alert_dialog_with_image.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/alert_dialog_with_ratingbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/custom_toast.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/shibi/AndroidStudioProjects/MyApplication/app/src/main/res/layout/customlayout.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

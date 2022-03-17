@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MediaActivity">
+
+    <TextView
+        android:id="@+id/txtviw1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="130dp"
+        android:text="Now Playing:  "
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:id="@+id/songname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtviw1"
+        android:layout_toRightOf="@+id/txtviw1"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/songpic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtviw1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        app:srcCompat="@drawable/half" />
+
+    <TextView
+        android:id="@+id/spoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/songpic"
+        android:layout_marginTop="30dp"
+        android:text="TextView" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/songpic"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/spoint" />
+
+    <TextView
+        android:id="@+id/epoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/songpic"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/seekBar3"
+        android:layout_marginLeft="10dp"
+        android:text="TextView" />
+
+    <ImageButton
+        android:id="@+id/backward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/epoint"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@android:drawable/ic_media_rew" />
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/epoint"
+        android:layout_toRightOf="@+id/backward"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/epoint"
+        android:layout_toRightOf="@+id/play"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@android:drawable/ic_media_pause" />
+
+    <ImageButton
+        android:id="@+id/foreward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/epoint"
+        android:layout_toRightOf="@+id/pause"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@android:drawable/ic_media_ff" />
+</RelativeLayout>
