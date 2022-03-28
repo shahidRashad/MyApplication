@@ -7,7 +7,14 @@
          location permissions for the "MyLocation" functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <application
         android:allowBackup="true"
@@ -16,6 +23,45 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".ViewCourse"
+            android:exported="false" />
+        <activity
+            android:name=".SqliteWithOpenholder"
+            android:exported="false" />
+        <activity
+            android:name=".SqliteWithoutOpenholder"
+            android:exported="false" />
+        <activity
+            android:name=".SecondCardActivty"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerWithCard"
+            android:exported="false" />
+        <activity
+            android:name=".BroadcastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OptionmenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BluetoothActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SMSActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhonecallActivity"
+            android:exported="false" />
         <activity
             android:name=".VideoActivity"
             android:exported="false" />
@@ -104,6 +150,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name=".NewService" />
     </application>
 
 </manifest>
